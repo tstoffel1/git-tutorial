@@ -40,5 +40,5 @@ Ensure that your code is compatable with different PLC hardware models.
 Implement a system for tracking and managing issus that arise during the development and deployment phases.
 Regularly review and update your documentation, keeping it synchronized with the current state of the PLC programs.
 Maintain a collaborative mindset – seek input from other and be open to constructive criticism.
-Test your automation system in various scenarios to identify and address potential bottleneks.
+Test your automation system in various scenarios to identify and address potential bottlenecks.
 Celebrate successes and learn from failures – the iterative nature of design in engineering requires a mindset of continuous improvement.
