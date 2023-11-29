@@ -29,7 +29,7 @@ Ensure that your design adheres to all relevant regualtions and standards in the
 Regularly update your softare tools to take advantage of new features and security patches.
 Utilize git hub or a similar platform for collaborative development and version control.
 Design with scalability in mind – anticipate future expansions or modfications to the automation system.
-Complet regular code reviews with your team to identify and address potential issues.
+Complete regular code reviews with your team to identify and address potential issues.
 Keep the end user in mind throughout the design process – their satisfcation is the ultimate goal.
 Implement measures to precent unauthorized access to the PLC programs and system.
 Foster effective communcation within your team to ensure a cohesive approach to design and problem-solving.
@@ -39,6 +39,6 @@ Embrace continuous learning – stay updated on the latest technlogies and best 
 Ensure that your code is compatable with different PLC hardware models.
 Implement a system for tracking and managing issus that arise during the development and deployment phases.
 Regularly review and update your documentation, keeping it synchronized with the current state of the PLC programs.
-Maintain a collaborative mindset – seek input from othesr and be open to constructive criticism.
+Maintain a collaborative mindset – seek input from other and be open to constructive criticism.
 Test your automation system in various scenarios to identify and address potential bottleneks.
 Celebrate successes and learn from failures – the iterative nature of design in engineering requires a mindset of continuous improvement.
