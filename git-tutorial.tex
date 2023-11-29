@@ -35,6 +35,7 @@ progressbar=foot,
 \begin{frame}{Version control}
   \vspace*{\baselineskip}
   \begin{columns}
+    %
     \begin{column}{0.6\linewidth}
       What is version control?
       \begin{itemize}
@@ -56,6 +57,7 @@ progressbar=foot,
         \end{itemize}
       }
     \end{column}
+    %
     \begin{column}{0.4\linewidth}
       \onslide<1->{
         \begin{figure}
@@ -65,13 +67,48 @@ progressbar=foot,
         \end{figure}
       }
     \end{column}
+    %
   \end{columns}
 \end{frame}
 %
 \begin{frame}{What is \texttt{git}?}
-  \begin{itemize}
-    \item Created by Linux Torvalds, creator of Linux, in 2005.
-  \end{itemize}
+  \vspace*{\baselineskip}
+  \begin{columns}
+    %
+    \begin{column}{0.75\linewidth}
+      \texttt{git} is the most popular version control software in the world.
+      \begin{itemize}
+        \item Created by Linux Torvalds, creator of Linux, in 2005.
+        \item Free, open source distributed version control system.
+        \item Mostly for code and text, but works for other types of files too.
+        \item Developed for use on the command line, i.e. \\ \texttt{\footnotesize git commit ``feat: Add third hot chocolate flavor to HMI''} \\ but many programs deal with that for you.
+      \end{itemize}
+      \onslide<2->{
+        Some of the power of \texttt{git}:
+        \begin{itemize}
+          \item \texttt{git log}: Visualize the changes made to all of your files.
+          \item \texttt{git diff}: See details of what was changed.
+          \item \texttt{git merge}: Automatically merge different versions of files together.
+        \end{itemize}
+      }
+    \end{column}
+    %
+    \begin{column}{0.25\linewidth}
+      \onslide<1->{
+        \begin{figure}
+          \centering
+          \includegraphics[width=2.25cm]{git-symbol.png}
+        \end{figure}
+        \vspace*{3\baselineskip}
+        \begin{figure}
+          \centering
+          \hspace*{-\baselineskip}
+          \includegraphics[width=3.5cm]{git-idea.png}
+        \end{figure}
+      }
+    \end{column}
+    %
+  \end{columns}
 \end{frame}
 %
 \end{document}
