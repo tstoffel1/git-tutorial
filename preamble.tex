@@ -1,0 +1,52 @@
+%
+% General packages
+\usepackage{textpos}
+% \usepackage{fontspec}
+%
+% Location(s) of images
+\graphicspath{{images/}}
+%
+% Frame title logo
+\makeatletter
+\newlength{\frametitleheight}% <- NEW
+\newsavebox{\beamer@titlebox}% <- NEW
+\setbeamertemplate{frametitle}{%
+  \ifbeamercolorempty[bg]{frametitle}{}{\nointerlineskip}%
+  \@tempdima=\textwidth%
+  \advance\@tempdima by\beamer@leftmargin%
+  \advance\@tempdima by\beamer@rightmargin%
+  \sbox{\beamer@titlebox}{% <- NEW
+      \begin{beamercolorbox}[sep=0.3cm,left,wd=\the\@tempdima]{frametitle}
+        \usebeamerfont{frametitle}%
+        \vbox{}\vskip-1ex%
+        \if@tempswa\else\csname beamer@fteleft\endcsname\fi%
+        \strut\insertframetitle\strut\par%
+        {%
+          \ifx\insertframesubtitle\@empty%
+          \else%
+          {\usebeamerfont{framesubtitle}\usebeamercolor[fg]{framesubtitle}\insertframesubtitle\strut\par}%
+          \fi
+        }%
+        \vskip-1ex%
+        \if@tempswa\else\vskip-.3cm\fi% set inside beamercolorbox... evil here...
+      \end{beamercolorbox}%
+     }% <- NEW
+     \usebox{\beamer@titlebox}% <- NEW
+\settoheight{\frametitleheight}{\usebox{\beamer@titlebox}}% <- NEW
+\addtolength{\frametitleheight}{\headheight}}
+\makeatother
+\addtobeamertemplate{frametitle}{}{%
+  \begin{tikzpicture}[remember picture,overlay]
+    \node[inner sep=0, outer sep=0, anchor= east,xshift=-2mm,yshift=-0.5*\frametitleheight] at (current page.north east) {\includegraphics[height=0.675cm, keepaspectratio]{murraystate-logo-shield.png}};
+  \end{tikzpicture}}
+%
+% Progress bar width
+\makeatletter
+\setlength{\metropolis@progressinheadfoot@linewidth}{2pt}
+\makeatother
+%
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: "git-tutorial"
+%%% TeX-engine: xetex
+%%% End:

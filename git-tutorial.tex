@@ -1,0 +1,73 @@
+%
+% Document class
+\documentclass[9pt]{beamer}
+%
+% Theme
+\usetheme[
+numbering=fraction,
+% background=dark,
+progressbar=foot,
+]{metropolis}
+%
+% Colors
+\definecolor{murraygold}{RGB}{240,195,58}
+\definecolor{murrayblue}{RGB}{2,8,69}
+\setbeamercolor{normal text}{bg=white,fg=murrayblue}
+\setbeamercolor{alerted text}{fg=murraygold}
+\setbeamercolor{example text}{fg=murraygold}
+%
+% Detailed settings/packages
+\input{preamble}
+%
+% Document information
+\title{Version Control}
+\date{\today}
+\author{Tyler D. Stoffel}
+\institute{ENT 419: Senior Project I}
+\titlegraphic{\vspace*{7.25cm}\includegraphics[width=4cm]{murraystate-logo-primary.png}}
+%
+% Start document
+\begin{document}
+\maketitle
+%
+% \section{First Section}
+%
+\begin{frame}{Version control}
+  \begin{columns}
+    \begin{column}{0.6\linewidth}
+      What is version control?
+      \begin{itemize}
+        \item The traditional way: New version? \\ \emph{File $\rightarrow$ Save as $\rightarrow$ myDocument\_v2.docx}
+        \item The better way: Version control.
+      \end{itemize}
+      \begin{alertblock}{Version control}
+       A system that records changes to files over time so that you can recall specific versions, merge changes, collaborate on developing the files, and more.
+      \end{alertblock}
+      Some programs that have version control built in:
+      \begin{itemize}
+        \item AutoCAD and SolidWorks
+        \item
+      \end{itemize}
+    \end{column}
+    \begin{column}{0.4\linewidth}
+      \begin{figure}
+        \centering
+        \includegraphics[width=3.5cm]{version-control-comic.png}
+        \caption{The traditional way.}
+      \end{figure}
+    \end{column}
+  \end{columns}
+\end{frame}
+%
+\begin{frame}{What is \texttt{git}?}
+  \begin{itemize}
+    \item Created by Linux Torvalds, creator of Linux, in 2005.
+  \end{itemize}
+\end{frame}
+%
+\end{document}
+%
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
