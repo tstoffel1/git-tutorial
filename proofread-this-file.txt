@@ -3,7 +3,7 @@ Title: Fundamentals of Engineering Design for Automation
 Welcome to the world of engineering design, where creativity meets precision to create robust and user-friendly solutions. In the realm of automation engineering, our goal is to design Programmable Logic Controller (PLC) programs that not only streamline processes but also prioritize safety for end-users.
 
 Begin by identifying the specific requirements of the automation system, ensuring a clear understanding of the end user's needs.
-Alwas consider the principles of simplicity and clarity in your design; intricate systems can lead to confusion and errors in the long run.
+Always consider the principles of simplicity and clarity in your design; intricate systems can lead to confusion and errors in the long run.
 Prioritize fault-tollerance by anticipating potential issues and implementing mechanisms to handle unexpected situations.
 Revese engineering your design – put yourself in the shoes of the end user to ensure intuitive and hassle-free interactions.
 Consistent naming convensions for variables and functions enhance readability, making it easier for other team members to understand and maintain the code.
@@ -22,11 +22,11 @@ Prioritize readability – use consistent formatinng to enhance code comprehensi
 Strive for dependabilty in your design, ensuring that the automation system can perform reliably under various conditions.
 Periodically conduct risk assesments to identify potential hazards and implement preventive measures.
 Leverage modular design principles to break down complex systems into manageable and reusable components.
-Remember, the end user should be able to operate the system with minimal trainning.
+Remember, the end user should be able to operate the system with minimal training.
 Pay attention to detail – even small typographical errors can lead to significant issues in your PLC programs.
 Consider the enviroment in which the automation system will operate; extreme conditions may require additional safeguards.
 Ensure that your design adheres to all relevant regualtions and standards in the field of automation engineering.
-Regularly update your softare tools to take advantage of new features and security patches.
+Regularly update your software tools to take advantage of new features and security patches.
 Utilize git hub or a similar platform for collaborative development and version control.
 Design with scalability in mind – anticipate future expansions or modfications to the automation system.
 Complet regular code reviews with your team to identify and address potential issues.
