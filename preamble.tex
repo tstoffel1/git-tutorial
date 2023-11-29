@@ -6,6 +6,17 @@
 % Location(s) of images
 \graphicspath{{images/}}
 %
+% Fonts
+\setsansfont[BoldFont={Fira Sans SemiBold}]{Fira Sans}
+\setbeamerfont{title}{size=\huge}
+\setbeamerfont{author}{size=\LARGE}
+\setbeamerfont{date}{size=\normalsize}
+\setbeamerfont{institute}{size=\normalsize}
+\setbeamerfont{frametitle}{series=\mdseries}
+%
+% Margins
+% \setbeamersize{text margin left=0.5cm,text margin right=0.5cm}
+%
 % Frame title logo
 \makeatletter
 \newlength{\frametitleheight}% <- NEW
@@ -42,8 +53,13 @@
 %
 % Progress bar width
 \makeatletter
-\setlength{\metropolis@progressinheadfoot@linewidth}{2pt}
+\setlength{\metropolis@progressinheadfoot@linewidth}{1pt}
 \makeatother
+%
+% Footer
+\setbeamertemplate{frame footer}{\vspace*{-5pt}\insertshorttitle\hfill\secname}
+\setbeamerfont{page number in head/foot}{size=\tiny}
+\setbeamercolor{footline}{fg=gray}
 %
 %%% Local Variables:
 %%% mode: latex

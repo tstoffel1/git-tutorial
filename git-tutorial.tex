@@ -1,15 +1,15 @@
 %
 % Document class
 \documentclass[
-9pt,
-handout,
+8pt,
+% handout,
 ]{beamer}
 %
 % Theme
 \usetheme[
 numbering=fraction,
 % background=dark,
-progressbar=foot,
+progressbar=head,
 ]{metropolis}
 %
 % Colors
@@ -48,7 +48,7 @@ progressbar=foot,
   \end{itemize}
 \end{frame}
 %
-\section{Version control}
+\section{What is Version Control?}
 %
 \begin{frame}{Version control}
   \vspace*{\baselineskip}
@@ -99,14 +99,16 @@ progressbar=foot,
         \item Created by Linux Torvalds, creator of Linux, in 2005.
         \item Free, open source distributed version control system.
         \item Mostly for code and text, but works for other types of files too.
-        \item Developed for use on the command line, i.e. \\ \texttt{\footnotesize git commit ``feat: Add third hot chocolate flavor to HMI''} \\ but many programs deal with that for you.
+        \item Developed for use on the command line, i.e. \\ \texttt{\small git commit "feat: Add third hot chocolate flavor to HMI"} \\ but many programs deal with that for you.
       \end{itemize}
       \onslide<2->{
+        \vspace*{\baselineskip}
         Some of the power of \texttt{git}:
         \begin{itemize}
           \item \texttt{git log}: Visualize the changes made to all of your files.
           \item \texttt{git diff}: See details of what was changed.
           \item \texttt{git merge}: Automatically merge different versions of files together.
+          \item \texttt{git checkout}: Revert your files to any previously committed state.
         \end{itemize}
       }
     \end{column}
@@ -160,6 +162,7 @@ progressbar=foot,
     %
   \end{columns}
   \pause
+  \vspace*{\baselineskip}
   You've probably used GitHub before (save ZIP folder), but today we're talking about using it the powerful version control way.
 \end{frame}
 %
@@ -208,7 +211,8 @@ progressbar=foot,
 %
 \begin{frame}
   \frametitle{Part 1: Collaborate to spell check a document}
-  \begin{itemize} \small
+  \setlength{\leftmargini}{0cm}
+  \begin{itemize}
     \item With your file explorer, open the file \texttt{proofread-this-file.txt} inside the folder that contains the repository.
     \item Find one spelling mistake and fix it with your text editor.
     \item Open GitHub Desktop again, navigate to the \emph{Changes} tab, and add a title which describes the change you made.
@@ -230,6 +234,8 @@ progressbar=foot,
     \item If you don't have access the Arduino code, then create a text file with suffix \texttt{.ino} containing a comment line explaining you don't have it, e.g. \\ \texttt{// Our project group will not be uploading our Arduino code}.
     \item Open GitHub Desktop again, make sure your arduino code is checked in the \emph{changes} tab, add a title (e.g. ``committing our Arduino code'') and click \emph{commit to main}.
   \end{itemize}
+  %
+  \vspace*{\baselineskip}
   Add author information to your code:
   \begin{itemize}
     \item Open your Arduino code once more, and add an author line to the top of the code, e.g. \\ \texttt{// Authors: XXXX and YYYY}
@@ -255,5 +261,6 @@ progressbar=foot,
 %
 %%% Local Variables:
 %%% mode: latex
+%%% TeX-engine: xetex
 %%% TeX-master: t
 %%% End:
