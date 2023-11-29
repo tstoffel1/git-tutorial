@@ -3,7 +3,7 @@ Title: Fundamentals of Engineering Design for Automation
 Welcome to the world of engineering design, where creativity meets precision to create robust and user-friendly solutions. In the realm of automation engineering, our goal is to design Programmable Logic Controller (PLC) programs that not only streamline processes but also prioritize safety for end-users.
 
 Begin by identifying the specific requirements of the automation system, ensuring a clear understanding of the end user's needs.
-Alwas consider the principles of simplicity and clarity in your design; intricate systems can lead to confusion and errors in the long run.
+AlwaYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYs consider the principles of simplicity and clarity in your design; intricate systems can lead to confusion and errors in the long run.
 Prioritize fault-tollerance by anticipating potential issues and implementing mechanisms to handle unexpected situations.
 Revese engineering your design – put yourself in the shoes of the end user to ensure intuitive and hassle-free interactions.
 Consistent naming convensions for variables and functions enhance readability, making it easier for other team members to understand and maintain the code.
