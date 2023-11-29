@@ -1,3 +1,5 @@
+// Authors: connor and jack 
+
 #include <dht11.h>
 #define DHT11PIN 4
 
