@@ -33,6 +33,7 @@ progressbar=foot,
 % \section{First Section}
 %
 \begin{frame}{Version control}
+  \vspace*{\baselineskip}
   \begin{columns}
     \begin{column}{0.6\linewidth}
       What is version control?
@@ -40,21 +41,29 @@ progressbar=foot,
         \item The traditional way: New version? \\ \emph{File $\rightarrow$ Save as $\rightarrow$ myDocument\_v2.docx}
         \item The better way: Version control.
       \end{itemize}
-      \begin{alertblock}{Version control}
-       A system that records changes to files over time so that you can recall specific versions, merge changes, collaborate on developing the files, and more.
-      \end{alertblock}
-      Some programs that have version control built in:
-      \begin{itemize}
-        \item AutoCAD and SolidWorks
-        \item
-      \end{itemize}
+      \onslide<2->{
+        \begin{alertblock}{Version control}
+          A system that records changes to files over time so that you can recall specific versions, merge changes, collaborate on developing the files, and more.
+        \end{alertblock}
+      }
+      \vspace*{\baselineskip}
+      \onslide<3->{
+        Some programs that have version control built in:
+        \begin{itemize}
+          \item AutoCAD, OnShape, and SolidWorks
+          \item Studio 5000
+          \item Microsoft programs like Word, Excel, Teams (kind of)...
+        \end{itemize}
+      }
     \end{column}
     \begin{column}{0.4\linewidth}
-      \begin{figure}
-        \centering
-        \includegraphics[width=3.5cm]{version-control-comic.png}
-        \caption{The traditional way.}
-      \end{figure}
+      \onslide<1->{
+        \begin{figure}
+          \centering
+          \includegraphics[width=3.5cm]{version-control-comic.png}
+          \caption{The traditional way.}
+        \end{figure}
+      }
     \end{column}
   \end{columns}
 \end{frame}
