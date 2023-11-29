@@ -12,7 +12,7 @@ Always strive for effiency in your code; unnecessary complexity can lead to incr
 Conduct thorough testing and validaion of your PLC program to identify and rectify any errors before deployment.
 Documentation is key – create clear and concise coments within your code to guide other developers and users.
 Aim for a balance between flexibilty and reliability in your design; a rigid system may struggle to adapt to changing requirements.
-Implement safety features, such as emergency stop-buttoms, to immediately halt the system in case of a critical issue.
+Implement safety features, such as emergency stop-buttons, to immediately halt the system in case of a critical issue.
 Regularly update and maintain your PLC progrmams to incorporate the latest advancements in technology and security.
 When it comes to user interfaces, prioritize intuitiveness and ease of use to enhance the overall user experience.
 Avoide unnecessary complexity; a straightforward design is often the most effective.
