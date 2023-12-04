@@ -27,7 +27,7 @@ Pay attention to detail – even small typographical errors can lead to signific
 Consider the enviroment in which the automation system will operate; extreme conditions may require additional safeguards.
 Ensure that your design adheres to all relevant regualtions and standards in the field of automation engineering.
 Regularly update your softare tools to take advantage of new features and security patches.
-Utilize git hub or a similar platform for collaborative development and version control.
+Utilize GitHub or a similar platform for collaborative development and version control.
 Design with scalability in mind – anticipate future expansions or modfications to the automation system.
 Complet regular code reviews with your team to identify and address potential issues.
 Keep the end user in mind throughout the design process – their satisfcation is the ultimate goal.
